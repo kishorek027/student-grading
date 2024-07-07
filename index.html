@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <section class="header">
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                   
+                    <li><a href="index.html">Grade</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="Gradecal">
+        <div class="container">
+           <div class="left-box">
+              <h1>Result</h1>
+              <div class="p-g-t">
+                  <h2>Percentage-<span class="per"></span></h2>
+                  <h2>Grade-<span class="gra"></span></h2>
+                  <h2>Total-<span class="to"></span></h2>
+                </div>
+            </div>
+            <div class="content">
+                <div class="right-box">
+                   <input type="number" id="c" placeholder="python"/>
+                   <input type="number" id="ds" placeholder="data structure"/>
+                   <input type="number" id="dbms" placeholder="database management"/>
+                   <input type="number" id="se" placeholder="software engineering"/>
+                   <input type="number" id="ja" placeholder="java programming"/>
+                   <input type="number" id="iot" placeholder="internet of things"/>
+                   <button type="button"onclick="show_result()">show result</button>
+                </div>
+            </div><div>
+            <div class="result">
+               <h2></h2>
+             </div>
+        </div>
+    </section>
+    <script src="grade.js"></script>
+</body>
+</html>
